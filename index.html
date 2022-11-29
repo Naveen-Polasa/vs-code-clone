@@ -24,7 +24,7 @@
               <p class="">Visual Studio Code</p>
             </div>
             <!-- for larger screens -->
-            <div class="flex items-center text-gray-500 invisible lg:visible">
+            <div class="flex items-center text-gray-500 fixed lg:static invisible lg:visible">
               <li class="h-14 py-4 px-3 hover:text-white">Docs</li>
               <li class="h-14 py-4 px-3 hover:text-white">Updates</li>
               <li class="h-14 py-4 px-3 hover:text-white">Blog</li>
@@ -38,7 +38,7 @@
         <!-- for smaller screens -->
         <div>
           <img
-            class="w-9 h-8 hover:bg-[#0066b8] rounded fixed right-5 top-3 visible lg:hidden"
+            class="w-9 h-8 hover:bg-[#0066b8] absolute fixed right-5 top-3 visible lg:hidden"
             src="./assets/menu.png"
             alt="menu"
           />
@@ -49,16 +49,16 @@
             class="flex pr-16 h-14 items-center bg-[#444444] hover:bg-gray-600"
           >
             <img
-              class="w-4 ml-2 mr-4"
+              class="lg:w-4 lg:ml-2 lg:mr-4"
               src="./assets/asset 0.svg"
               alt="search-icon"
             />Search Docs
           </p>
           <button
-            class="flex items-center pr-4 bg-[#0066b8] hover:bg-[#145587]"
+            class="fixed lg:static lg:flex lg:items-center pr-0 lg:pr-4 bg-[#0066b8] hover:bg-[#145587]"
           >
             <img
-              class="w-4 ml-2 mr-2"
+              class="w-0 lg:w-4 ml-0 lg:ml-2 mr-2 lg:mr-2"
               src="./assets/asset 2.svg"
               alt="download-logo"
             />
@@ -94,7 +94,7 @@
                   <p class="pb-2 text-sm">Stable Build</p>
                 </button>
                 <button class="w-10 hover:bg-[#145587]">
-                  <img class="w-8 pl-3" src="./assets/chevronDown.svg" alt="" />
+                  <img class="w-8 pl-3" src="./assets/chevronDown.svg" />
                 </button>
               </div>
               <div class="text-sm w-[280px] bg-[#25252b] my-4 py-2 rounded-md">
@@ -226,7 +226,7 @@
         <div class="md:flex px-8 py-8 md:pl-14 xl:pl-44 xl:pr-48">
           <div class="pl-4 pt-8 flex justify-center">
             <img
-              class="w-[300px] md:mx-[2vw] lg:min-w-[400px]"
+              class="w-[300px] md:mx-[2vw] lg:w-[400px]"
               src="./assets/asset 7.svg"
               alt=""
             />
@@ -254,7 +254,7 @@
           </div>
           <div class="pr-4 pt-8 flex justify-center">
             <img
-              class="w-[300px] md:mx-[2vw] lg:min-w-[400px]"
+              class="w-[300px] md:mx-[2vw] lg:w-[400px]"
               src="./assets/asset 8.svg"
               alt=""
             />
@@ -263,7 +263,7 @@
         <div class="md:flex px-8 py-8 md:pl-14 xl:pl-44 xl:pr-48">
           <div class="pl-4 pt-8 flex justify-center">
             <img
-              class="w-[300px] md:mx-[2vw] lg:min-w-[400px]"
+              class="w-[300px] md:mx-[2vw] lg:w-[400px]"
               src="./assets/asset 9.svg"
               alt=""
             />
@@ -292,7 +292,7 @@
           </div>
           <div class="pr-4 px-8 pt-8 flex justify-center">
             <img
-              class="w-[300px] md:mx-[2vw] lg:min-w-[400px]"
+              class="w-[300px] md:mx-[2vw] lg:w-[400px]"
               src="./assets/asset 10.png"
               alt=""
             />
@@ -301,7 +301,7 @@
         <div class="md:flex px-8 py-8 md:pl-14 xl:pl-44 xl:pr-48">
           <div class="pl-4 pt-8 flex justify-center">
             <img
-              class="w-[300px] md:mx-[2vw] lg:min-w-[400px]"
+              class="w-[300px] md:mx-[2vw] lg:w-[400px]"
               src="./assets/asset 11.svg"
               alt=""
             />
